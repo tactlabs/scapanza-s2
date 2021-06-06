@@ -1,10 +1,4 @@
-'''
-Source:
 
-Author: Raja CSP
-
-
-'''
 from flask import Flask,render_template
 import random
 import json
