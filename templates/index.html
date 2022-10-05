@@ -8,20 +8,22 @@
     <style>
         html {
             font-family: "Lato", sans-serif;
+
         }
 
         .container {
-            width: 100%;
+            width: 90%;
             height: 900px;
             background-color: #fff;
             padding: 50px 80px;
         }
 
         .container .card-stack {
-            width: 500px;
+            width: 90%;
             height: 250px;
             position: absolute;
             margin: 20px auto;
+            font-size: 25px;
         }
 
         .container .card-stack .buttons {
@@ -30,8 +32,8 @@
             background: rgba(0, 0, 0, 0.46);
             border: 2px solid rgba(255, 255, 255, 0.7);
             border-radius: 50%;
-            width: 35px;
-            height: 35px;
+            width: 100%;
+            height: 350px;
             left: 0;
             top: 55%;
             color: rgba(255, 255, 255, 0.7);
@@ -64,7 +66,7 @@
         }
 
         .container .card-stack .card-list {
-            width: 300px;
+            width: 100%;
         }
 
         .container .card-stack .card-list__image {
@@ -84,7 +86,8 @@
             border-radius: 10px;
             position: absolute;
             list-style: none;
-            height: 300px;
+            height: 600px;
+            width: 100%;
             left: 0;
             right: 0;
             margin: 0 auto;
@@ -122,11 +125,15 @@
 
         .container .card-stack:hover>.buttons.prev {
             display: block;
+            height: 40px;
+            width: 40px;
             animation: bounceInLeft 200ms;
         }
 
         .container .card-stack:hover>.buttons.next {
             display: block;
+            height: 40px;
+            width: 40px;
             animation: bounceInRight 200ms;
         }
 
@@ -137,6 +144,10 @@
         .transformPrev {
             animation: scaleUp 100ms;
             display: none;
+        }
+
+        .buttons {
+            margin-top: 13%;
         }
 
         @keyframes scaleUp {
@@ -242,49 +253,55 @@
     <div class="container">
         <div class="card-stack">
             <a class="buttons prev" href="#">
-                <</a> <ul class="card-list">
-                  <li class="card" style="background: #c31432;  /* fallback for old browsers */
+                < </a>
+                    <ul class="card-list">
+                        <li class="card" style="background: #c31432;  /* fallback for old browsers */
                                 background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
                                 background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
                                 ">
-                        <img src="https://svgshare.com/i/E86.svg" alt="Sun" class="card-list__image">
+                            <img src="https://svgshare.com/i/E86.svg" alt="Sun" class="card-list__image">
 
-                        <h3 class="card-list__text">Mr. Rajasekar sir is our P.e teacher, he is very enthusiastic about teaching various sports and the students aspire to become a sportsperson.                         </h3>
-                    </li>
-                    <li class="card" style="background: #00416A;
+                            <h3 class="card-list__text">Mr. Rajasekar sir is our P.e teacher, he is very enthusiastic
+                                about teaching various sports and the students aspire to become a sportsperson. </h3>
+                        </li>
+                        <li class="card" style="background: #00416A;
                                         background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A);
                                         background: linear-gradient(to right, #FFE000, #799F0C, #00416A);
                                         ">
-                        <img src="https://svgshare.com/i/E86.svg" alt="Sun" class="card-list__image">
+                            <img src="https://svgshare.com/i/E86.svg" alt="Sun" class="card-list__image">
 
-                        <h3 class="card-list__text">Miss Jayashree is one of the most liked teachers in the school because she teaches very efficiently that too in a fun way.</h3>
-                    </li>
-                    <li class="card" style="background: #1e3c72;
+                            <h3 class="card-list__text">Miss Jayashree is one of the most liked teachers in the school
+                                because she teaches very efficiently that too in a fun way.</h3>
+                        </li>
+                        <li class="card" style="background: #1e3c72;
                                 background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);
                                 background: linear-gradient(to right, #2a5298, #1e3c72);
                                 ">
-                        <img src="https://svgshare.com/i/E86.svg" alt="Sun" class="card-list__image">
+                            <img src="https://svgshare.com/i/E86.svg" alt="Sun" class="card-list__image">
 
-                        <h3 class="card-list__text">   Miss Nayeemaar is also one of the most liked teachers because she constantly backs up no matter what.</h3>
-                    </li>
+                            <h3 class="card-list__text"> Miss Nayeemaar is also one of the most liked teachers because
+                                she constantly backs up no matter what.</h3>
+                        </li>
 
-                    <li class="card" style="background: #2C3E50;
+                        <li class="card" style="background: #2C3E50;
                                 background: -webkit-linear-gradient(to right, #FD746C, #2C3E50);
                                 background: linear-gradient(to right, #FD746C, #2C3E50);
                                 ">
-                        <img src="https://svgshare.com/i/E86.svg" alt="Sun" class="card-list__image">
+                            <img src="https://svgshare.com/i/E86.svg" alt="Sun" class="card-list__image">
 
-                        <h3 class="card-list__text">Miss Priyanshak is our physics teacher and she simplifies the complex term to something that is very easy to understand</h3>
+                            <h3 class="card-list__text">Miss Priyanshak is our physics teacher and she simplifies the
+                                complex term to something that is very easy to understand</h3>
 
-                    </li>
-                    <li class="card" style="background: #373B44;
+                        </li>
+                        <li class="card" style="background: #373B44;
                                 background: -webkit-linear-gradient(to right, #4286f4, #373B44);
                                 background: linear-gradient(to right, #4286f4, #373B44);
                                 ">
-                        <img src="https://svgshare.com/i/E86.svg" alt="Sun" class="card-list__image">
+                            <img src="https://svgshare.com/i/E86.svg" alt="Sun" class="card-list__image">
 
-                        <h3 class="card-list__text">Miss Keerthana is Strict And Uses The Fun-learn way, Her Pattern To Teach Is By oing Revesion Ad Learn simultaneously.</h3>
-                    </li>
+                            <h3 class="card-list__text">Miss Keerthana is Strict And Uses The Fun-learn way, Her Pattern
+                                To Teach Is By oing Revesion Ad Learn simultaneously.</h3>
+                        </li>
                     </ul>
                     <a class="buttons next" href="#">></a>
         </div>
@@ -315,7 +332,7 @@
             }
 
             $('li').removeClass('transformPrev').last().addClass('activeNow').prevAll().removeClass(
-            'activeNow');
+                'activeNow');
             setTimeout(function () {
                 appendToList();
             }, 150);
